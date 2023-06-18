@@ -8,7 +8,7 @@ import colorama
 colorama.init()
 from colorama import Fore, Style
 
-with open("C:\\Users\\ASUS\\Desktop\\Deeplearning chatbot\\ProjekAkhirDeepLearning\\intent.json") as file:
+with open("intent.json") as file:
     data = json.load(file)
 
 # Load trained model
