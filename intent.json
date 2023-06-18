@@ -1,0 +1,60 @@
+{
+    "intents": [
+      {
+        "tag": "sapaan",
+        "patterns": ["Halo", "Hai", "Ada orang di sana?", "Halo", "Hei", "Selamat pagi", "Selamat siang", "Selamat sore", "Selamat malam"],
+        "responses": ["Halo! Ada yang bisa saya bantu?"]
+      },
+      {
+        "tag": "perpisahan",
+        "patterns": ["Selamat tinggal", "Sampai jumpa", "Goodbye"],
+        "responses": ["Semoga harimu menyenangkan"]
+      },
+      {
+        "tag": "terima_kasih",
+        "patterns": ["Terima kasih", "Makasih", "Terima kasih atas bantuannya", "Terima kasih atas bantuan"],
+        "responses": ["Senang bisa membantu!, Jika ada yang bisa saya bantu lagi sialahkan ditanyakan!"]
+      },
+      {
+        "tag": "about",
+        "patterns": ["Siapa kamu?", "Apa yang kamu lakukan?", "Siapa dirimu?"],
+        "responses": ["Saya adalah asisten bot untuk reservasi hotel ini, ada yang bisa saya bantu"]
+      },
+      {
+        "tag": "fitur_chatbot",
+        "patterns": ["Apa yang bisa kamu lakukan?", "Fitur apa yang kamu miliki?", "Apa saja yang bisa kamu bantu?"],
+        "responses": ["Saya dapat membantu Anda dengan fitur-fitur berikut:\n\n1. Reservasi hotel: Saya dapat membantu Anda melakukan reservasi hotel.\n2. Informasi hotel: Saya dapat memberikan informasi tentang hotel seperti fasilitas, harga, dan ulasan.\n3. Pembayaran: Saya dapat memberikan informasi tentang metode pembayaran yang tersedia.\n4. Bantuan: Jika Anda memiliki pertanyaan atau masalah, saya siap membantu.\n\nJika Anda memiliki pertanyaan spesifik atau butuh bantuan dengan sesuatu, silakan beri tahu saya."]
+      },
+       
+      {
+        "tag": "nama",
+        "patterns": ["Siapa namamu", "Apa yang harus saya panggil kamu", "Siapa namamu?"],
+        "responses": ["Saya hanyalah chatbot reservasi hotel jadi saya tidak punya nama, jika ada yang dapat saya bantu bisa ditanyakan!"]
+      },
+      {
+        "tag": "bantuan",
+        "patterns": ["Bisakah kamu membantu saya?", "Tolong bantu saya", "Bisakah kamu membantu?", "Apa yang bisa kamu lakukan untuk saya?", "Saya butuh bantuan", "Saya perlu bantuan", "Tolong dukung saya"],
+        "responses": ["Beritahu saya bagaimana saya bisa membantu Anda"]
+      },
+      {
+        "tag": "reservasi_hotel",
+        "patterns": ["Saya ingin melakukan reservasi hotel", "Bagaimana cara reservasi hotel?", "Apakah ada kamar yang tersedia?", "Bisakah saya memesan kamar hotel?"],
+        "responses": ["Anda dapat melakukan reservasi hotel melalui situs web kami. Silakan pilih tanggal check-in dan check-out yang diinginkan, jumlah tamu dewasa dan anak-anak, serta tipe kamar yang Anda inginkan. Setelah itu, kami akan menampilkan ketersediaan kamar dan harga yang tepat untuk Anda."]
+      },
+      {
+        "tag": "pembayaran",
+        "patterns": ["Bagaimana metode pembayaran yang tersedia?", "Apakah saya bisa membayar dengan kartu kredit?", "Apakah Anda menerima pembayaran tunai?"],
+        "responses": ["Kami menerima pembayaran dengan kartu kredit seperti Visa dan MasterCard. Selain itu, kami juga menerima pembayaran tunai. Jika Anda memiliki preferensi pembayaran lainnya, silakan beri tahu kami, dan kami akan mencoba memenuhi permintaan Anda."]
+      },
+      {
+        "tag": "harga",
+        "patterns": ["Berapa harga kamar hotel?", "Apakah ada promo atau diskon?", "Apakah harga kamar termasuk sarapan?", "Berapa biaya menginap satu malam?"],
+        "responses": ["Harga kamar hotel kami bervariasi tergantung pada tipe kamar yang Anda pilih, tanggal menginap, dan faktor-faktor lainnya. Rentang harga kamar hotel kami berkisar antara Rp. 500.000 untuk kamar termurah. Untuk informasi lebih rinci tentang harga yang tepat dan ketersediaan kamar, silakan kunjungi situs web kami atau hubungi layanan pelanggan kami. Promo dan diskon kamar tersedia dari waktu ke waktu, jadi pastikan untuk memeriksa penawaran terbaru. Harga kamar yang kami tawarkan mungkin termasuk atau tidak termasuk sarapan, tergantung pada jenis paket yang Anda pilih. Untuk informasi lebih lanjut, silakan hubungi kami."]
+      },
+      {
+        "tag": "fallback",
+        "patterns": ["", " "],
+        "responses": ["Maaf, saya tidak dapat memahami pertanyaan Anda. Silakan ajukan pertanyaan lain atau gunakan kata kunci yang berbeda."]
+      }
+    ]
+  }
